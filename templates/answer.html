@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Users List</title>
+</head>
+
+<body>
+    {% for user in obj%}
+        <p>
+            { for element in user%}
+            <span>
+                {{element}}
+            </span>
+            {% endfor %}
+        </p>
+    {% endfor %}
+</body>
+
+</html>
